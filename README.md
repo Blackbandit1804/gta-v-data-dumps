@@ -4,38 +4,40 @@ This is a collection of various GTA V data dumps mostly useful for modding &amp;
 [![Durty Map Editor Logo](https://i.imgur.com/WsRJv3u.png)](https://discord.gg/hgSutAU)
 If you are in search for an easy way to browse those GTA V data ingame, feel free to join my Map Editor Discord: https://discord.gg/hgSutAU
 
-## All data up2date as of GTA V update: **v1868.1 (Online 1.50)**
+## All data up2date as of GTA V update: **v2060 (Online 1.51) [DLC: mpsum]**
 ---
 ## Please create an issue if you have any problems with the data, so I can improve my generator. You are also welcome to create issues for dumps you would like to see.
 ---
 ## **Featured data dumps**
-- **IPLs** (ipls.json) **1018** ipls, **537** interiors & **4973** interior entity sets in total (Usable with IPL & entity / interior set natives)
-- **Speech Voices** (speeches.json) **1018** speech voices with **150055** speeches in total (Usable with PLAY AMBIENT SPEECH natives)
-- **Particle Effects** (particleEffectsCompact.json) **273** particle effect dictionaries & **1286** particle effects in total (Usable with START PARTICLE FX natives)
+- **IPLs** (ipls.json) **1015** ipls, **481** interiors & **4962** interior entity sets in total (Usable with IPL & entity / interior set natives)
+- **Speech Voices** (speeches.json) **1083** speech voices with **150055** speeches in total (Usable with PLAY AMBIENT SPEECH natives)
+- **Particle Effects** (particleEffectsCompact.json) **276** particle effect dictionaries & **1299** particle effects in total (Usable with START PARTICLE FX natives)
 - **(Ped) Scenarios** (scenariosCompact.json) **239** scenarios in total (Usable with scenario related natives)
-- **Animations** (animDictsCompact.json) **16355** animation dictionaries & **167276** animations in total (Usable with TASK PLAY ANIM native)
+- **Animations** (animDictsCompact.json) **16366** animation dictionaries & **167414** animations in total (Usable with TASK PLAY ANIM native)
 - **Movement Clipsets** (movementClipsetsCompact.json) **557** movement clipsets in total (Usable with SET PED MOVEMENT CLIPSET native)
 - **(Walking) Movement Clipsets** (movementClipsetsWalkingCompact.json) **207** movement clipsets in total (Usable with SET PED MOVEMENT CLIPSET native)
 - **(Vehicle Navigation) Nodes** (JSON Download: https://mega.nz/file/BYJlwI7Y#irDL_oKMHHjYwtn8YmZeBCIFsEliLZ4LCdidz9udraQ) **259** node cells with **77991** nodes in total (Mostly useful for vehicle navigation, see navigation meshes dump for ped navigation data)
-- **(Offroad & Ped) Navigation Meshes** (MSGPACK Download: https://mega.nz/file/tFRxwQjL#VmXAYNJbTaNls3khNFTjTqTOdXvBY3ZOS7gEzfRVZE0) **4404** navmeshes with **6384911** polygons in total (See navigationmesh.md for the messagepack model)
-- **Ped Overlay Collections (Tattoos)** (pedOverlayCollections.json) **29** ped overlay collections with **2676** overlays in total (Usable tattos/badges with ped decoration native)
-- **Timecycle Modifiers** (timecycleModifiers.json) **2806** timecycle modifiers in total (Usable with TIMECYCLE MODIFIER natives)
-- **Explosion Types (Names)** (explosionTypesCompact.json) **74** explosion types in total (Usable with ADD EXPLOSION native)
+- **(Offroad & Ped) Navigation Meshes** (MSGPACK Download: https://mega.nz/file/NQQ1GSAR#cKYkxCmsO_IOhdis3wt4C6Pr4YlV9FPrFjlHLkSTEcY) **4404** navmeshes with **6390573** polygons in total (See navigationmesh.md for the messagepack model)
+- **Ped Overlay Collections (Tattoos)** (pedOverlayCollections.json) **30** ped overlay collections with **3029** overlays in total (Usable tattos/badges with ped decoration native)
+- **Timecycle Modifiers** (timecycleModifiers.json) **2813** timecycle modifiers in total (Usable with TIMECYCLE MODIFIER natives)
+- **Explosion Types (Names)** (explosionTypesCompact.json) **76** explosion types in total (Usable with ADD EXPLOSION native)
 - **Cam Shake Types (Names)** (camShakeTypesCompact.json) **21** cam shake types in total (Usable with SHAKE CAM & SHAKE GAMEPLAY cam natives)
-- **Audio / Sound names & ref names** (soundNames.json) **1906** audio names from a total of **62** unique audio refs (Usable with PLAY_SOUND natives)
+- **Audio / Sound names & ref names** (soundNames.json) **1929** audio names from a total of **62** unique audio refs (Usable with PLAY_SOUND natives)
 - **Pickup Types (Names)** (pickupTypes.json) **150** pickup types in total (Usable with CREATE PICKUP natives)
-- **Vehicle Mod Kits** (vehicleModKits.json) **394** vehicle mod kit infos in total (Usable with SET_VEHICLE_MOD_KIT & SET_VEHICLE_LIVERY natives)
-- **Vehicles** (vehicles.json) **687** vehicle infos in total (Usable with VEHICLE natives)
-- **AnimpostFX names** (animPostFxNamesCompact.json) **147** animpostfx names in total (Usable with ANIMPOSTFX natives)
-- **Ped Component Variations** (pedComponentVariations.json) **19958** component variations & **2986** ped props from a total of **58** ped component variation collections (Usable with COMPONENT VARIATION & PED PROP natives)
-- **Ped Apparel Restriction tag names** (animPostFxNamesCompact.json) **375** ped apparel restriction tags in total (Usable with PED RESTRICTION natives)
+- **Vehicle Mod Kits & Mods** (vehicleModKits.json) **409** vehicle mod kit infos with **46054** mods in total (Usable with SET_VEHICLE_MOD_KIT,SET_VEHICLE_LIVERY & SET_VEHICLE_MOD  natives)
+- **Vehicles** (vehicles.json) **702** vehicle infos in total (Usable with VEHICLE natives)
+- **AnimpostFX names** (animPostFxNamesCompact.json) **149** animpostfx names in total (Usable with ANIMPOSTFX natives)
+- **Ped Component Variations** (pedComponentVariations.json) **23066** component variations & **3302** ped props from a total of **62** ped component variation collections (Usable with COMPONENT VARIATION & PED PROP natives)
+- **Ped Apparel Restriction tag names** (animPostFxNamesCompact.json) **377** ped apparel restriction tags in total (Usable with PED RESTRICTION natives)
 - **Waypoint recording names** (waypointRecordings.json) **791** waypoint recording infos in total (Usable with WAYPOINT RECORDING natives)
-- **Garages** (garages.json) **16** garage infos in total (Usable with GARAGE natives)
-- **Vehicle Handlings** (vehicleHandlings.json) **611** vehicle handling infos in total (Shared for all existing vehicles, see handling id in vehicles dump)
+- **Garages** (garages.json) **32** garage infos in total (Usable with GARAGE natives)
+- **Vehicle Handlings** (vehicleHandlings.json) **626** vehicle handling infos in total (Shared for all existing vehicles, see handling id in vehicles dump)
 - **Zones** (zones.json) **96** zone infos in total (Usable with some ZONE natives, contains all bounds coords for the zones)
-- **Static Emitters** (staticEmitters.json) **714** static emitter infos in total (Usable with STATIC_EMITTER natives)
-- **Ambient Zones** (ambientZones.json) **1202** ambient zone infos in total (Usable with AMBIENT_ZONE natives)
-- **MLO / Interiors** (mloInteriors.json) **334** MLO interiors at 770 locations in total (Useful for modding, also contains in game locations of interiors)
+- **Static Emitters** (staticEmitters.json) **784** static emitter infos in total (Usable with STATIC_EMITTER natives)
+- **Ambient Zones** (ambientZones.json) **1205** ambient zone infos in total (Usable with AMBIENT_ZONE natives)
+- **MLO / Interiors** (mloInteriors.json) **335** MLO interiors at 771 locations in total (Useful for modding, also contains in game locations of interiors)
+- **Peds** (peds.json) **683** peds in total (Useful for various natives related to peds)
+- **Vehicle Colors** (vehicleColors.json) Contains all **Xenon Colors, Window Colors, PrimarySecondaryColors & Vehicle Plates** data (Useful for various natives related to vehicle)
 
 ## **Featured objects location dumps**
 Object location dumps contain positions of various objects of a specific type, on the GTA V map (including all interiors / MLOs).
@@ -59,7 +61,9 @@ Object location dumps contain positions of various objects of a specific type, o
 - **Letter Boxes** (worldLetterBoxes.json) **379** in total
 - **Harvest fields** (orange trees, vine grapes, corns, salad, pumpkin, tomatoes) (worldHarvestFields.json) **623** in total
 - **Fruit stands** (worldFruitStands.json) **13** in total
-- **Seats** (Benches, Chairs etc.) (worldSeats.json) **7647** in total
+- **Seats** (Benches, Chairs etc.) (worldSeats.json) **7649** in total
 - **Food stands** (Hotdogs & Burger) (worldFoodStands.json) **23** in total
 - **Container cabins** (worldContainerCabins.json) **155** in total
-- **Street lights** (worldStreetLights.json) **5880** in total
+- **Street lights** (worldStreetLights.json) **5870** in total
+- **Traffic lights** (worldTrafficLights.json) **1058** in total
+- **Cctv cameras** (worldCctvs.json) **1580** in total
